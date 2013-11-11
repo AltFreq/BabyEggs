@@ -2,31 +2,35 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.mcdimensions.babyeggs</groupId>
-	<artifactId>BabyEggs</artifactId>
+	<groupId>com.minecraftdimensions.autoannouncer</groupId>
+	<artifactId>AutoAnnouncer</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	<name>BabyEggs</name>
+	<name>AutoAnnouncer</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<repositories>
 		<repository>
-            <id>bukkit-repo</id>
-            <url>http://repo.bukkit.org/content/groups/public</url>
-        </repository>
+			<id>bukkit-repo</id>
+			<url>http://repo.bukkit.org/content/groups/public</url>
+		</repository>
+		<repository>
+			<id>md_5-repo</id>
+			<url>http://repo.md-5.net/content/groups/public/</url>
+		</repository>
 	</repositories>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
-			<version>1.6.2-R0.1-SNAPSHOT</version>
+			<version>1.6.4-R0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<build>
-	<finalName>BabyEggs</finalName>
+		<finalName>AutoAnnouncer</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

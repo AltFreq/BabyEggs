@@ -1,7 +1,15 @@
-name: BabyEggs
-main : com.minecraftdimensions.babyeggs.BabyEggs
+name: AutoAnnouncer
+main : com.minecraftdimensions.autoannouncer.AutoAnnouncer
 version: 1.0
-description: Spawns an egg instead of a baby mob
+description: Announcement plugin
 author: Bloodsplat
 website: http://www.spigotmc.org/resources/bungeesuite.9/
-prefix: BabyEggs
+prefix: AutoAnnouncer
+commands:
+    announcementreload:
+        description: Reload the announcements
+        aliases: [reloadannouncements,announcereload, reloadannounce]
+        permission: autoannouncer.reload
+        permission-message: §cYou do not have permission for this command
+        default: op
+        usage: /<command>
