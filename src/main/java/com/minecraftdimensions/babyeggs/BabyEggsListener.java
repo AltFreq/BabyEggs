@@ -42,7 +42,7 @@ public class BabyEggsListener implements Listener {
 			}else if(type.equals(EntityType.WOLF)){
 				e.getLocation().getWorld().dropItemNaturally(e.getLocation(), new ItemStack(Material.MONSTER_EGG, 1, (short) 95));	
 			}else if(type.equals(EntityType.OCELOT)){
-				e.getLocation().getWorld().dropItemNaturally(e.getLocation(), new ItemStack(Material.MONSTER_EGG, 1, (short) 92));	
+				e.getLocation().getWorld().dropItemNaturally(e.getLocation(), new ItemStack(Material.MONSTER_EGG, 1, (short) 98));	
 			}else if(type.equals(EntityType.VILLAGER)){
 				e.getLocation().getWorld().dropItemNaturally(e.getLocation(), new ItemStack(Material.MONSTER_EGG, 1, (short) 120));	
 			}
